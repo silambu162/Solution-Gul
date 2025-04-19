@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Tab Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+      <ul class="tabs">
+        <li><a href="#" class="tab-link active" data-tab="about">About Us</a></li>
+        <li><a href="#" class="tab-link" data-tab="services">Services</a></li>
+        <li><a href="#" class="tab-link" data-tab="contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="tab-content active">
+      <h2>About Us</h2>
+      <p>We are a team dedicated to delivering top-notch solutions for our clients.</p>
+    </section>
+
+    <section id="services" class="tab-content">
+      <h2>Our Services</h2>
+      <p>We offer a range of services including web development, digital marketing, and more.</p>
+    </section>
+
+    <section id="contact" class="tab-content">
+      <h2>Contact Us</h2>
+      <p>Email: info@example.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
